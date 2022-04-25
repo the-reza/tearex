@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Akshar&display=swap");
+* {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Akshar', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.body-ex {
+  background-size: 100% 100%;
+  background-position: center;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-filter: grayscale(30%);
+          filter: grayscale(30%);
+}
+
+.body-ex:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  background-size: 120% 120%;
+}
+
+.body-ex:hover .circle {
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+}
+
+.body-ex .circle {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  background-color: aqua;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.body-works {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  background-color: #333;
+}
+
+@media (min-width: 481px) {
+  .body-works {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    background-color: #333;
+  }
+}
+
+@media (min-width: 830px) {
+  .body-works {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    background-color: #333;
+  }
+}
+
+@media (min-width: 1400px) {
+  .body-works {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    background-color: #333;
+  }
+}
+
+@media (min-width: 2000px) {
+  .body-works {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[5];
+        grid-template-columns: repeat(5, 1fr);
+    background-color: #333;
+  }
+}
+/*# sourceMappingURL=style.css.map */

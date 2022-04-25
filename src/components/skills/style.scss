@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+
+*{
+  transition: all 0.5s ease-in-out ;
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Akshar', sans-serif;
+}
+
+.body-skills{
+      overflow-x:hidden ;
+      background-image: url('../../bg.jpg');
+      background-position: center;
+      background-size: auto;
+      color: snow;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding-bottom: 50px;
+      padding: 60px 0;
+}
+
+.skills-text{
+      padding: 25px 20px;
+      p{
+            font-size: 20px;
+      }
+}
+
+.skills-main{
+      color: aqua;
+      font-size: 3rem;
+}
+
+.skills-title {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 90%;
+      max-width: 768px;
+}
+
+.skills-title li {
+      --c: white;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 60px;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-family: sans-serif;
+      letter-spacing: 0.1em;
+      text-align: center;
+      line-height: 3em;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+      transition: 0.5s;
+      margin: 1em;
+  }
+  
+  .skills-title li span {
+      position: absolute;
+      width: 25%;
+      height: 100%;
+      transform: translateY(150%);
+      border-radius: 50%;
+      left: calc((var(--n) - 1) * 25%);
+      transition: 0.5s;
+      transition-delay: calc((var(--n) - 1) * 0.1s);
+      z-index: -1;
+  }
+  
+   .skills-title li:hover {
+      color: black;
+  }
+  
+   .skills-title li:hover span {
+      transform: translateY(0) scale(2);
+  }
+  
+   .skills-title li span:nth-child(1) {
+      --n: 1;
+  }
+  
+   .skills-title li span:nth-child(2) {
+      --n: 2;
+  }
+  
+   .skills-title li span:nth-child(3) {
+      --n: 3;
+  }
+  
+   .skills-title li span:nth-child(4) {
+      --n: 4;
+  }
+
+  .white{
+      &:hover{
+            color:black;
+      }
+        color: white;
+        border-bottom:3px solid white;
+        span{
+              background-color: white ;
+              
+        }
+  }
+
+  .red{
+      &:hover{
+            color:snow;
+      }
+        color: tomato;
+        border-bottom:3px solid tomato;
+        span{
+              background-color: tomato ;
+              
+        }
+  }
+
+.blue{
+      &:hover{
+            color:snow;
+      }
+        color: #1abeff;
+        border-bottom:3px solid #1abeff;
+        span{
+              background-color: #1abeff;
+              
+        }
+}
+
+.orange{
+      &:hover{
+            color:snow;
+      }
+        color: orange;
+        border-bottom:3px solid orange;
+        span{
+              background-color: orange;
+              
+        }
+}
+
+.green{
+      &:hover{
+            color:#333;
+      }
+        color: rgb(56, 255, 38);
+        border-bottom:3px solid rgb(56, 255, 38);
+        span{
+              background-color: rgb(56, 255, 38);
+              
+        }
+}
+
+.purple{
+      &:hover{
+            color:snow;
+      }
+        color: rgb(132, 0, 255);
+        border-bottom:3px solid rgb(132, 0, 255);
+        span{
+              background-color: rgb(132, 0, 255);
+              
+        }
+}
+
+.yellow{
+      &:hover{
+            color:#333;
+      }
+        color: rgb(255, 251, 0);
+        border-bottom:3px solid rgb(255, 251, 0);
+        span{
+              background-color: rgb(255, 251, 0);
+              
+        }
+}
+
+.aquamarine{
+      &:hover{
+            color:#333;
+      }
+        color: aquamarine;
+        border-bottom:3px solid aquamarine;
+        span{
+              background-color: aquamarine;
+              
+        }
+}

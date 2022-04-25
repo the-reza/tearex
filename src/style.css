@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Akshar&display=swap");
+* {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Akshar', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.body-main {
+  overflow-x: hidden;
+  background-image: url("./bg.jpg");
+  background-position: center;
+  background-size: auto;
+  color: snow;
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;*/
+  width: 100%;
+}
+
+.main-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  cursor: pointer;
+  font-size: 60px;
+  letter-spacing: 10px;
+  padding: 10px;
+  line-height: 100px;
+  display: flex;
+}
+
+.main-text span {
+  display: inline-block;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.main-text span:hover {
+  color: #ff6767;
+  -webkit-animation: bounce 1s ease-in-out;
+          animation: bounce 1s ease-in-out;
+}
+/*# sourceMappingURL=style.css.map */

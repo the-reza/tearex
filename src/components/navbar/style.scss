@@ -1,0 +1,102 @@
+.menu-icon{
+      position: absolute;
+      z-index: 2000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 45px;
+      margin: 20px 30px;
+      cursor: pointer;
+      right: 0;
+      &:hover .menu-part1{
+            width: 30px;
+      }
+      &:hover .menu-part3{
+            width: 30px;
+      }
+      .menu-part1,.menu-part2,.menu-part3{
+            display: inline-block;
+            background-color: snow;
+            height: 5px;
+            border-radius:25px;
+            margin: 5px 0;
+      }
+      .menu-part1{
+            width: 15px;
+            align-self: flex-end;
+      }
+      .menu-part2{
+            width: 30px;
+      }
+      .menu-part3{
+            width: 15px;
+            align-self: flex-start;
+      }
+}
+
+.nav-not-move{
+      transform: translateX(-100%);
+}
+
+.nav-move{
+      transform: translateX(0);
+}
+
+.nav-list{
+      position: absolute;
+      height: 100vh;
+      z-index: 2001;
+      width: 50vw;
+      backdrop-filter: blur(10px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      list-style: none;
+      li{
+            &:hover a{
+                  color: aqua;
+            }
+            &:hover{      
+                  animation: rubberBand 1s ease-in-out both;
+            }
+      }
+      a{
+            font-size: 40px;
+            color: snow;
+      }
+}
+
+@media (min-width:769px){
+      .menu-icon{
+            display: none;
+      }
+      .nav-list{
+            position: absolute;
+            height: 40px;
+            padding: 30px 35px;
+            margin-bottom: 20px;
+            width: 100vw;
+            backdrop-filter: blur(0);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            list-style: none;
+            transform: translateX(0);
+            li{
+                  &:hover a{
+                        color: aquamarine;
+                  }
+                  &:hover{      
+                        animation: tada 1s ease-in-out both;
+                  }
+            }
+            a{
+                  font-size: 25px;
+                  color: snow;
+            }
+      }
+}

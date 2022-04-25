@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Akshar&display=swap");
+* {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Akshar', sans-serif;
+}
+
+.body-skills {
+  overflow-x: hidden;
+  background-image: url("../../bg.jpg");
+  background-position: center;
+  background-size: auto;
+  color: snow;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding-bottom: 50px;
+  padding: 60px 0;
+}
+
+.skills-text {
+  padding: 25px 20px;
+}
+
+.skills-text p {
+  font-size: 20px;
+}
+
+.skills-main {
+  color: aqua;
+  font-size: 3rem;
+}
+
+.skills-title {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 90%;
+  max-width: 768px;
+}
+
+.skills-title li {
+  --c: white;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 60px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 3em;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin: 1em;
+}
+
+.skills-title li span {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  -webkit-transform: translateY(150%);
+          transform: translateY(150%);
+  border-radius: 50%;
+  left: calc((var(--n) - 1) * 25%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transition-delay: calc((var(--n) - 1) * 0.1s);
+          transition-delay: calc((var(--n) - 1) * 0.1s);
+  z-index: -1;
+}
+
+.skills-title li:hover {
+  color: black;
+}
+
+.skills-title li:hover span {
+  -webkit-transform: translateY(0) scale(2);
+          transform: translateY(0) scale(2);
+}
+
+.skills-title li span:nth-child(1) {
+  --n: 1;
+}
+
+.skills-title li span:nth-child(2) {
+  --n: 2;
+}
+
+.skills-title li span:nth-child(3) {
+  --n: 3;
+}
+
+.skills-title li span:nth-child(4) {
+  --n: 4;
+}
+
+.white {
+  color: white;
+  border-bottom: 3px solid white;
+}
+
+.white:hover {
+  color: black;
+}
+
+.white span {
+  background-color: white;
+}
+
+.red {
+  color: tomato;
+  border-bottom: 3px solid tomato;
+}
+
+.red:hover {
+  color: snow;
+}
+
+.red span {
+  background-color: tomato;
+}
+
+.blue {
+  color: #1abeff;
+  border-bottom: 3px solid #1abeff;
+}
+
+.blue:hover {
+  color: snow;
+}
+
+.blue span {
+  background-color: #1abeff;
+}
+
+.orange {
+  color: orange;
+  border-bottom: 3px solid orange;
+}
+
+.orange:hover {
+  color: snow;
+}
+
+.orange span {
+  background-color: orange;
+}
+
+.green {
+  color: #38ff26;
+  border-bottom: 3px solid #38ff26;
+}
+
+.green:hover {
+  color: #333;
+}
+
+.green span {
+  background-color: #38ff26;
+}
+
+.purple {
+  color: #8400ff;
+  border-bottom: 3px solid #8400ff;
+}
+
+.purple:hover {
+  color: snow;
+}
+
+.purple span {
+  background-color: #8400ff;
+}
+
+.yellow {
+  color: #fffb00;
+  border-bottom: 3px solid #fffb00;
+}
+
+.yellow:hover {
+  color: #333;
+}
+
+.yellow span {
+  background-color: #fffb00;
+}
+
+.aquamarine {
+  color: aquamarine;
+  border-bottom: 3px solid aquamarine;
+}
+
+.aquamarine:hover {
+  color: #333;
+}
+
+.aquamarine span {
+  background-color: aquamarine;
+}
+/*# sourceMappingURL=style.css.map */
