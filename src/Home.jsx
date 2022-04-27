@@ -17,7 +17,7 @@ function App() {
       <Nav />
       <h1 className="main-text">
         <div className="main-title">
-          <span className='title'>b</span><span className='title'>e </span><span className='title'> S</span><span className='title'>m</span><span className='title'>a</span><span className='title'>r</span><span className='title'>t</span><span className='title'>,</span><br /><span className='title'>B</span><span className='title'>e </span><span className='title'> K</span><span className='title'>i</span><span className='title'>n</span><span className='title'>d</span><span className='title'>,</span><br /><span className='title'>B</span><span className='title'>e </span><span className='title'> B</span><span className='title'>r</span><span className='title'>a</span><span className='title'>v</span><span className='title'>e</span>
+          <span className='title'>B</span><span className='title'>e </span><span className='title'> S</span><span className='title'>m</span><span className='title'>a</span><span className='title'>r</span><span className='title'>t</span><span className='title'>,</span><br /><span className='title'>B</span><span className='title'>e </span><span className='title'> K</span><span className='title'>i</span><span className='title'>n</span><span className='title'>d</span><span className='title'>,</span><br /><span className='title'>B</span><span className='title'>e </span><span className='title'> B</span><span className='title'>r</span><span className='title'>a</span><span className='title'>v</span><span className='title'>e</span>
         </div>
       </h1>
     </motion.div >
