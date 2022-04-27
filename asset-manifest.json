@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/tearex/static/css/main.5a804ae0.css",
-    "main.js": "/tearex/static/js/main.6bff87f3.js",
-    "static/media/bg.jpg": "/tearex/static/media/bg.0e48c20c7e1d1aa93c06.jpg",
-    "static/media/trex2.jpg": "/tearex/static/media/trex2.6cfa4a20dbd067a22340.jpg",
-    "index.html": "/tearex/index.html",
-    "main.5a804ae0.css.map": "/tearex/static/css/main.5a804ae0.css.map",
-    "main.6bff87f3.js.map": "/tearex/static/js/main.6bff87f3.js.map"
+    "main.css": "/static/css/main.1833afb2.css",
+    "main.js": "/static/js/main.3be7d1cf.js",
+    "static/media/bg.jpg": "/static/media/bg.0e48c20c7e1d1aa93c06.jpg",
+    "static/media/trex2.jpg": "/static/media/trex2.6cfa4a20dbd067a22340.jpg",
+    "index.html": "/index.html",
+    "main.1833afb2.css.map": "/static/css/main.1833afb2.css.map",
+    "main.3be7d1cf.js.map": "/static/js/main.3be7d1cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a804ae0.css",
-    "static/js/main.6bff87f3.js"
+    "static/css/main.1833afb2.css",
+    "static/js/main.3be7d1cf.js"
   ]
 }
