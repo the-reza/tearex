@@ -13,7 +13,7 @@ function Animation() {
       return (
             <AnimatePresence>
                   <Routes location={location} key={location.pathname}>
-                        <Route exact element={<App />} path='/' />
+                        <Route exact element={<App />} path='/tearex' />
                         <Route element={<Skills />} path='/skills' />
                         <Route element={<Works />} path='/works' />
                         <Route element={<About />} path='/about' />

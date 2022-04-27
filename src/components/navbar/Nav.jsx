@@ -23,7 +23,7 @@ function Nav() {
                         <span className="menu-part3"></span>
                   </div>
                   <ul className={'nav-list ' + style}>
-                        <li><Link to='/'>Home</Link></li>
+                        <li><Link to='/tearex'>Home</Link></li>
                         <li><Link to='/skills'>Skills</Link></li>
                         <li><Link to='/works'>Works</Link></li>
                         <li><Link to='/about'>About</Link></li>
