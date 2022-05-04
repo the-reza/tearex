@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tearex/static/css/main.0f0b3bfe.css",
-    "main.js": "/tearex/static/js/main.72b15e43.js",
+    "main.js": "/tearex/static/js/main.b6c6752e.js",
     "static/media/bg.jpg": "/tearex/static/media/bg.0e48c20c7e1d1aa93c06.jpg",
     "static/media/trex2.jpg": "/tearex/static/media/trex2.6cfa4a20dbd067a22340.jpg",
     "index.html": "/tearex/index.html",
     "main.0f0b3bfe.css.map": "/tearex/static/css/main.0f0b3bfe.css.map",
-    "main.72b15e43.js.map": "/tearex/static/js/main.72b15e43.js.map"
+    "main.b6c6752e.js.map": "/tearex/static/js/main.b6c6752e.js.map"
   },
   "entrypoints": [
     "static/css/main.0f0b3bfe.css",
-    "static/js/main.72b15e43.js"
+    "static/js/main.b6c6752e.js"
   ]
 }
