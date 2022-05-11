@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/tearex/static/css/main.0f0b3bfe.css",
-    "main.js": "/tearex/static/js/main.0d91f663.js",
+    "main.js": "/tearex/static/js/main.f1432888.js",
     "static/media/tour-main-page.PNG": "/tearex/static/media/tour-main-page.51a0fa248c0210063780.PNG",
     "static/media/hamburger.png": "/tearex/static/media/hamburger.abf899138a5459319105.png",
+    "static/media/benz.PNG": "/tearex/static/media/benz.a589e2a27dd14877af67.PNG",
     "static/media/bg.jpg": "/tearex/static/media/bg.0e48c20c7e1d1aa93c06.jpg",
     "static/media/trex2.jpg": "/tearex/static/media/trex2.6cfa4a20dbd067a22340.jpg",
     "index.html": "/tearex/index.html",
     "main.0f0b3bfe.css.map": "/tearex/static/css/main.0f0b3bfe.css.map",
-    "main.0d91f663.js.map": "/tearex/static/js/main.0d91f663.js.map"
+    "main.f1432888.js.map": "/tearex/static/js/main.f1432888.js.map"
   },
   "entrypoints": [
     "static/css/main.0f0b3bfe.css",
-    "static/js/main.0d91f663.js"
+    "static/js/main.f1432888.js"
   ]
 }
