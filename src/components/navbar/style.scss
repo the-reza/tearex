@@ -38,14 +38,16 @@
 
 .nav-not-move{
       transform: translateX(-100%);
+      position: fixed;
 }
 
 .nav-move{
       transform: translateX(0);
+      position: fixed;
 }
 
 .nav-list{
-      position: absolute;
+      position: fixed;
       height: 100vh;
       z-index: 2001;
       width: 50vw;

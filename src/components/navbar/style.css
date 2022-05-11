@@ -56,15 +56,17 @@
 .nav-not-move {
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
+  position: fixed;
 }
 
 .nav-move {
   -webkit-transform: translateX(0);
           transform: translateX(0);
+  position: fixed;
 }
 
 .nav-list {
-  position: absolute;
+  position: fixed;
   height: 100vh;
   z-index: 2001;
   width: 50vw;
