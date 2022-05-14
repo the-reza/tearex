@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/tearex/static/css/main.92601f67.css",
-    "main.js": "/tearex/static/js/main.1d446299.js",
-    "static/media/tour-main-page.PNG": "/tearex/static/media/tour-main-page.51a0fa248c0210063780.PNG",
-    "static/media/hamburger.png": "/tearex/static/media/hamburger.abf899138a5459319105.png",
-    "static/media/benz.PNG": "/tearex/static/media/benz.a589e2a27dd14877af67.PNG",
-    "static/media/starwars.png": "/tearex/static/media/starwars.6e87afa3f270f6fc6a32.png",
+    "main.js": "/tearex/static/js/main.0050876f.js",
+    "static/media/tour-main-page.PNG": "/tearex/static/media/tour-main-page.b1a2afede988e0819c84.PNG",
+    "static/media/hamburger.png": "/tearex/static/media/hamburger.cfec87dbd53b0e2a3d65.png",
     "static/media/bg.jpg": "/tearex/static/media/bg.0e48c20c7e1d1aa93c06.jpg",
     "static/media/trex2.jpg": "/tearex/static/media/trex2.6cfa4a20dbd067a22340.jpg",
-    "static/media/tearexgame.jpg": "/tearex/static/media/tearexgame.44d55d4061fd9ae06eef.jpg",
-    "static/media/rexhub.png": "/tearex/static/media/rexhub.ffec63cc1c8801a9f9e1.png",
+    "static/media/tearexgame.jpg": "/tearex/static/media/tearexgame.dd718f7f02c2ddd6b132.jpg",
+    "static/media/benz.PNG": "/tearex/static/media/benz.d3d5a1c4a6d65a46711f.PNG",
+    "static/media/starwars.png": "/tearex/static/media/starwars.f44aa431d622d4667907.png",
     "index.html": "/tearex/index.html",
     "main.92601f67.css.map": "/tearex/static/css/main.92601f67.css.map",
-    "main.1d446299.js.map": "/tearex/static/js/main.1d446299.js.map"
+    "main.0050876f.js.map": "/tearex/static/js/main.0050876f.js.map"
   },
   "entrypoints": [
     "static/css/main.92601f67.css",
-    "static/js/main.1d446299.js"
+    "static/js/main.0050876f.js"
   ]
 }
