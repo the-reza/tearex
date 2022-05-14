@@ -29,13 +29,9 @@ a {
           justify-content: center;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  -webkit-filter: grayscale(30%);
-          filter: grayscale(30%);
 }
 
 .body-ex:hover {
-  -webkit-filter: grayscale(0);
-          filter: grayscale(0);
   background-size: 120% 120%;
 }
 
