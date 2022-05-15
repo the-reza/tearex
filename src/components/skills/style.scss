@@ -49,6 +49,9 @@
 }
 
 .skills-title li {
+      &:hover{
+            transform: scale(1.1,1.1);
+      }
       --c: white;
       font-size: 20px;
       display: flex;

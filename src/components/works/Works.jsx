@@ -19,7 +19,6 @@ function Works() {
                         <Example link='https://the-reza.github.io/hamburger/' img={Hamburger} />
                         <Example link='https://the-reza.github.io/benz' img={Benz} />
                         <Example link='http://star-wars.gigfa.com/' img={StarWars} />
-                        <Example link='https://the-reza.github.io/rexhub' img={RH} />
                         <Example link='https://the-reza.github.io/tearexgame/' img={TRGame} />
                         <Example link='#' img='https://images.unsplash.com/photo-1617791160588-241658c0f566?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80' />
                         <Example link='#' img='https://images.unsplash.com/photo-1617791160588-241658c0f566?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80' />
