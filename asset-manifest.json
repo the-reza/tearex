@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/tearex/static/css/main.7fd43475.css",
+    "main.css": "/tearex/static/css/main.ca34fe42.css",
     "main.js": "/tearex/static/js/main.4797c888.js",
-    "static/media/bg2.jpg": "/tearex/static/media/bg2.d1e5f93e150f54796c66.jpg",
     "static/media/tour-main-page.PNG": "/tearex/static/media/tour-main-page.b1a2afede988e0819c84.PNG",
     "static/media/hamburger.png": "/tearex/static/media/hamburger.cfec87dbd53b0e2a3d65.png",
     "static/media/bg.jpg": "/tearex/static/media/bg.0e48c20c7e1d1aa93c06.jpg",
@@ -11,11 +10,11 @@
     "static/media/benz.PNG": "/tearex/static/media/benz.d3d5a1c4a6d65a46711f.PNG",
     "static/media/starwars.png": "/tearex/static/media/starwars.f44aa431d622d4667907.png",
     "index.html": "/tearex/index.html",
-    "main.7fd43475.css.map": "/tearex/static/css/main.7fd43475.css.map",
+    "main.ca34fe42.css.map": "/tearex/static/css/main.ca34fe42.css.map",
     "main.4797c888.js.map": "/tearex/static/js/main.4797c888.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fd43475.css",
+    "static/css/main.ca34fe42.css",
     "static/js/main.4797c888.js"
   ]
 }
