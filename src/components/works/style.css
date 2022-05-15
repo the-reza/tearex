@@ -15,9 +15,10 @@ a {
 }
 
 .body-ex {
-  background-size: 100% 100%;
+  margin-top: 20px;
+  background-size: cover;
   background-position: center;
-  height: 300px;
+  height: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -32,7 +33,14 @@ a {
 }
 
 .body-ex:hover {
-  background-size: 120% 120%;
+  -webkit-transform: scaleY(1.1);
+          transform: scaleY(1.1);
+}
+
+@media (min-width) {
+  .body-ex {
+    height: 300px;
+  }
 }
 
 .body-ex:hover .circle {
@@ -65,7 +73,13 @@ a {
   display: grid;
   -ms-grid-columns: (1fr)[1];
       grid-template-columns: repeat(1, 1fr);
-  background-color: #333;
+  background-color: pink;
+  grid-gap: 20px;
+  padding: 20px;
+  padding-top: 80px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media (min-width: 481px) {
@@ -74,7 +88,8 @@ a {
     display: grid;
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
-    background-color: #333;
+    background: -webkit-gradient(linear, left top, left bottom, from(pink), to(#fc3c3c));
+    background: linear-gradient(to bottom, pink, #fc3c3c);
   }
 }
 

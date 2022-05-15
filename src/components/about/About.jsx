@@ -6,6 +6,7 @@ import { motion } from 'framer-motion'
 
 function About() {
 
+
       return (
             <>
                   <Nav />
@@ -13,10 +14,18 @@ function About() {
                         <div className="main-about">
                               <h1 className='h1-about'>ABOUT ME</h1>
                               <p>
-                                    - I'm Reza, a smart and kind guy.<br /> - I was Born on December 18, 2005 in Iran.<br />- Like to Program and Code.<br />
-                                    - A programmer since 2021
-                                    <h2 className='about-t'>Contact Me: tearex05@yahoo.com</h2>
+                                    - I'm Reza, a smart and kind guy.
                               </p>
+                              <p>
+                                    - I was Born on December 18, 2005 in Iran.
+                              </p>
+                              <p>
+                                    - Like to Program and Code.
+                              </p>
+                              <p>
+                                    - A programmer since 2021
+                              </p>
+                              <h2 className='about-t'>Contact Me: tearex05@yahoo.com</h2>
                         </div>
                         <div className="cr"></div>
                   </motion.div>

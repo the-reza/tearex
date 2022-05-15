@@ -2,6 +2,7 @@ import React from 'react'
 import './style.css'
 import '../../bg.jpg'
 
+
 function Example(props) {
       return (
             <a href={props.link}>
