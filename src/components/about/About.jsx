@@ -13,7 +13,7 @@ function About() {
                   <motion.div className='body-about' initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
                         <div className="main-about">
                               <h1 className='h1-about'>ABOUT ME</h1>
-                              <p>
+                              <p className=''>
                                     - I'm Reza, a smart and kind guy.
                               </p>
                               <p>
